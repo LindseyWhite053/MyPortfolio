@@ -178,6 +178,10 @@ footer {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 915px) {
+header nav ul li a {
+    padding: 7px;
+    font-size: 15px; 
+}
 .content p {
     padding:0;
     width: 300px;
@@ -254,7 +258,6 @@ line-height: .90;
 
 .contact {
 display: contents;
-margin: 10px;
 }
 
 footer {
