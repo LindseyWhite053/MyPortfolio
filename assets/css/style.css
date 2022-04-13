@@ -174,3 +174,91 @@ footer {
     padding: 40px;
     text-align: right;
 }
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 915px) {
+.content p {
+    padding:0;
+    width: 300px;
+}
+
+#about-me {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+#my-work a {
+display: flex;
+flex-wrap:wrap;
+justify-content: center;
+}
+
+.primary-project {
+    width: 90%;
+}
+
+}
+
+/*MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+header {
+    justify-content: center;
+}
+
+.hero h2 {
+    font-size: inherit;
+}
+
+.content {
+    flex-wrap: wrap;
+}
+
+.content p {
+    width: 100%;
+    height: 200px; 
+
+}
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+header nav ul {
+    display: unset;
+}
+
+.section-title{
+    font-size:20px;
+}
+
+.content p{
+line-height: .90;
+    font-size:20px;
+}
+.content img {
+    width: 100%;
+}
+
+.primary-project{
+    width: 30%
+}
+
+.primary-project {
+    width:80%;
+}
+
+.secondary-project {
+    width:70%; 
+}
+
+.contact {
+display: contents;
+margin: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+}
