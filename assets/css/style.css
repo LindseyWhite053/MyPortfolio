@@ -130,20 +130,25 @@ header nav ul li a:hover {
     align-items: center;
 } 
 
-
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 .primary-project {
     border: 5px solid var(--secondary-color);
-    width: 1010px;
+    width: 925px;
     height: 350px;
-    margin: 20px 10px;
+    margin: 20px 0;
 }
 
 .secondary-project {
     border: 5px solid var(--secondary-color);
     width: 450px;
     height:300px;
-    margin: 20px 5px;
+    margin: 20px 0;
+    padding: 0px;
 }
 
 
@@ -162,11 +167,11 @@ header nav ul li a:hover {
     height: 50px;
 }
 
-.contact a:link {
+a {
     color:var(--secondary-color);
 }
 
-.contact a:hover {
+a:hover {
     color:var(--primary-color);
 }
 
