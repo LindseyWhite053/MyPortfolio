@@ -126,21 +126,24 @@ header nav ul li a:hover {
 #my-work {
     display: flex; 
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 } 
 
+
+
 .primary-project {
     border: 5px solid var(--secondary-color);
-    width: 850px;
-    margin: 15px;
-    position: relative;
+    width: 1010px;
+    height: 350px;
+    margin: 20px 10px;
 }
 
 .secondary-project {
     border: 5px solid var(--secondary-color);
-    width: 400px;
-    margin: 0 30px 30px 15px;
+    width: 450px;
+    height:300px;
+    margin: 20px 5px;
 }
 
 
