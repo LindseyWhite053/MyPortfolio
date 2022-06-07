@@ -140,14 +140,14 @@ header nav ul li a:hover {
     border: 5px solid var(--secondary-color);
     width: 925px;
     height: 350px;
-    margin: 20px 0;
+    margin: 20px 10px;
 }
 
 .secondary-project {
     border: 5px solid var(--secondary-color);
     width: 450px;
     height:300px;
-    margin: 20px 0;
+    margin: 20px 10px;
     padding: 0px;
 }
 
