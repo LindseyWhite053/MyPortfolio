@@ -9,72 +9,76 @@
     </head>
     <body>
         <header>
-            <h1>
-                <a href="./index.html">Lindsey White</a>
-            </h1>
-            <nav>
-                <ul>
-                    <li>
+            <div class="container text-center">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <h1 class="col-12">
+                        <a href="./index.html">LINDSEY WHITE</a>
+                    </h1>
+                    <nav class="col-12 d-flex justify-content-around align-items-center">
                         <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
                         <a href="#my-work">My Work</a>
-                    </li>
-                    <li>
                         <a href="#contact-me">Contact Me</a>
-                    </li>
-                </ul>
-            </nav>
+                    </nav>
+                </div>    
+            </div>
         </header>
-        <section class="hero"></section>
 
-        <section id="about-me">
-            <div class="section-title">
-                <h2 >About Me</h2>
-            </div>
-            <div class="content">
-                <div> 
-                    <p>Currently a resident of Metro Detroit. I am a prospective full-stack developer with a passion for creating solutions and amazing user experience. My pass times include drinking coffee, watching comic book or fantasy based media, and going to concerts. My preferred music genre is of the alt-rock variety.</p>
-                </div>
-                <div>
-                    <img src="./assets/images/my-photo.jpg" alt="Lindsey White close up"/>
-                </div>
-            </div>
-        </section>
+        <section id="hero" class="hero"></section>
 
-        <section id="my-work">
-            <div class="section-title">
-                <h2>My Work</h2>
-            </div>
-            <div>
-                <div class="projects">
-                    <div>
-                        <a href="https://github.com/LindseyWhite053/find-the-dopamine" target="blank" >
-                            <img src="./assets/images/Find-the-dopamine-img.png" alt="find the dopamine website snapshot" class="secondary-project"/>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://github.com/LindseyWhite053/code-quiz" target="blank">
-                            <img src="./assets/images/code-quiz-img.png" alt="Code quiz snapshot" class="secondary-project"/>
-                        </a>
+        <section class="container">            
+            <div id="about-me" class="row d-flex justify-content-center text-center">
+                <div class="col-12 col-lg-9">
+                    <h2 class="section-title col-12">About Me</h2>
+                    <div class="content row">
+                        <div class="col-12 col-md-6">
+                            <img src="./assets/images/my-photo.jpg" alt="Lindsey White close up"/>
+                        </div>
+                        <div class="col-12 col-md-6 align-self-center"> 
+                            <p>Hello! I am a full-stack developer with experience with C#, .NET, Typescript, Angular, Git, in addition to creating and consuming API's. I also have many hours of group collaboration under my belt from previous roles. I have a passion for creating solutions and amazing user experience. My pass times include drinking coffee, watching comic book or fantasy based media, and going to concerts. My preferred music genre is of the alt-rock variety.</p>
+                        </div>
                     </div>
                 </div>
-        </section>
+            </div >
+            <div id="my-work"  class="row d-flex justify-content-center text-center">
+                <div class="col-12 col-lg-9">
+                    <h2 class="section-title col-12">My Work</h2>
 
-        <section id="contact-me">
-            <div class="section-title">
-                <h2>Contact Me</h2>
+                    <div class="projects">
+                        <div>
+                            <a href="https://github.com/LindseyWhite053/HabitTracker" target="blank" >
+                                <img src="./assets/images/HabitTracker.png" alt="find the dopamine website snapshot" class="secondary-project"/>
+                            </a>
+                        </div>      
+                        <div>
+                            <a href="https://github.com/LindseyWhite053/find-the-dopamine" target="blank" >
+                                <img src="./assets/images/Find-the-dopamine-img.png" alt="find the dopamine website snapshot" class="secondary-project"/>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/LindseyWhite053/code-quiz" target="blank">
+                                <img src="./assets/images/code-quiz-img.png" alt="Code quiz snapshot" class="secondary-project"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div >
+
+            
+        
+            <div id="contact-me"  class="row d-flex justify-content-center text-center">
+                <div class="col-12 col-lg-9">
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="contact d-flex justify-content-evenly col-12">
+                        <a href="mailto:LindseyWhite053@gmail.com" target="blank">Email</a>
+                        <a href="https://github.com/LindseyWhite053" target="blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/lindsey-white-messer-8a0172152/" target="blank"> LinkedIn</a>
+                        <a href=".\assets\documents\LindseyWhiteResume_12_12_2022.pdf" target="blank">Resume</a>                      
+                    </div>    
+                </div>
             </div>
-            <div class="contact">
-                    <a href="mailto:LindseyWhite053@gmail.com" target="blank">Email</a>
-                    <a href="https://github.com/LindseyWhite053" target="blank">GitHub</a>
-                    <a href="https://www.linkedin.com/in/lindsey-white-messer-8a0172152/" target="blank"> linkedin</a>
-                    <a href="./assets/documents/LindseyWhiteResume_12_12_2022" target="blank">Resume</a>
-
-            </div>    
-        </section>
-        <footer>
-            <h3>@2022 Lindsey White</h3>
+            </section>
+        <footer class="text-center">
+            <p>@2022 Lindsey White</p>
         </footer>
         <script src="./assets/js/script.js"></script>
     </body>
