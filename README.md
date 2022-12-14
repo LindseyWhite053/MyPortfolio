@@ -14,4 +14,4 @@ Lindsey White
  https://lindseywhite053.github.io/MyPortfolio/
 
 ## Screenshot
-![_C__Users_LAWhite94_Desktop_projects_my-portfolio_index html](https://user-images.githubusercontent.com/99527756/169668438-8601584b-d6b2-4fba-8a80-5b0bcc366e89.png)
+![lindseywhite053 github io_MyPortfolio_ (1)](https://user-images.githubusercontent.com/99527756/207662396-919100c4-47b8-43b8-bfa4-1535f8f4e734.png)
