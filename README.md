@@ -6,6 +6,7 @@ My personal portfolio which includes a brief description about myself with an im
 ## Built With 
 * HTML
 * CSS
+* Bootstrap
 
 ## Contribution
 Lindsey White
@@ -14,4 +15,4 @@ Lindsey White
  https://lindseywhite053.github.io/MyPortfolio/
 
 ## Screenshot
-![lindseywhite053 github io_MyPortfolio_ (1)](https://user-images.githubusercontent.com/99527756/207662396-919100c4-47b8-43b8-bfa4-1535f8f4e734.png)
+![_C__Users_LAWhite94_Desktop_Projects_basicportfolio_MyPortfolio_index html](https://user-images.githubusercontent.com/99527756/208140804-7b21d41e-f250-4de7-95fa-d0058bdcd14d.png)
